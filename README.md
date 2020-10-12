@@ -23,8 +23,12 @@ or lunch vim and type: `:PluginInstall`
 
 Result:
 
+![Screenshot](screenshot.png)
+
+
 ```
-  ~/.vim/bundle/
+ls -l ~/.vim/bundle/
+
     command-t
     gruvbox
     nerdtree
