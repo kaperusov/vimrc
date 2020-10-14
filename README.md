@@ -12,7 +12,7 @@ And theme [gruvbox](https://github.com/morhetz/gruvbox).
 git clone https://github.com/morhetz/gruvbox.git ~/.vim/bundle/gruvbox
 ```
 
-Then copy `.vimrc` to `~/.vimrc` and in terminal 
+Then copy `vimrc` to `~/.vimrc` and in terminal 
 
 ```
 vim +PluginInstall +qall
