@@ -26,7 +26,13 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 
+" NERDTree
 Plugin 'preservim/nerdtree'
+
+" A plugin of NERDTree showing git status flags.
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -155,4 +161,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " shortcut to open NERDTree
 map <C-E> :NERDTreeToggle<CR>
 
-
+" Hide hidden files by default (to toggle those: Shift + i in the NerdTree
+" window)
+let NERDTreeShowHidden=0

@@ -29,12 +29,13 @@ Result:
 ```
 ls -l ~/.vim/bundle/
 
-    command-t
-    gruvbox
-    nerdtree
-    sparkup
-    vim-fugitive
-    Vundle.vim
+  command-t
+  gruvbox
+  nerdtree
+  nerdtree-git-plugin
+  sparkup
+  vim-fugitive
+  Vundle.vim
 ```
 
 
